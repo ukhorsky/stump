@@ -36,13 +36,9 @@ begin
             when "01" =>
                 r <= a or b;
             when "10" =>
---                r <= CONV_STD_LOGIC_VECTOR(CONV_INTEGER(src_a) + 
---                                                CONV_INTEGER(b) +
---                                                CONV_INTEGER(c_in), 
---                                                r'length);
                   r <= a + b + f(2);
             when others =>
-                r <= a;
+                r <= b;
         end case;
     end process;
 
