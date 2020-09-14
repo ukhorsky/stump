@@ -1,2 +1,2 @@
 # stump
-cpu (or mcu) based on ARM architecture with very reduced functionality
+16 bit RISC cpu core with very reduced functionality based on MIPS architecture by Harris&Harris book.
